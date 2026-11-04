@@ -17,15 +17,7 @@ plant-disease-detector/
 └── README.md
 ```
 
-## Step 4: Install libraries
-
-```
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-This takes a few minutes (TensorFlow is large).
-
-## Step 5: Download the dataset
+## Step 1: Download the dataset
 
 1. Go to Kaggle and search **"PlantVillage dataset"** (about 54,000 images, 38 classes).
    A free Kaggle account is needed.
@@ -35,7 +27,7 @@ This takes a few minutes (TensorFlow is large).
    Some versions contain `color`, `grayscale`, `segmented` subfolders. Use the
    **color** folder's contents.
 
-## Step 6: Train the model
+## Step 2: Train the model
 
 ```
 python train.py
@@ -46,7 +38,7 @@ Or use the **Run and Debug** panel (Ctrl+Shift+D) -> "Train model" -> green play
 - At the end it prints validation accuracy and creates
   `plant_model.keras` and `class_names.json`.
 
-## Step 7: Run the web app
+## Step 3: Run the web app
 
 ```
 streamlit run app.py
