@@ -1,6 +1,6 @@
 # Plant Disease Detection (CNN + Streamlit)
 
-Upload a leaf photo and a CNN (MobileNetV2 transfer learning) predicts the plant
+Upload a leaf photo and a CNN predicts the plant
 disease. Trained on the PlantVillage dataset (38 classes).
 <img width="1133" height="910" alt="Screenshot 2026-11-03 101322" src="https://github.com/user-attachments/assets/76e958a7-17d8-484c-b5c4-e656ce4762f6" />
 
@@ -22,10 +22,7 @@ plant-disease-detector/
 1. Go to Kaggle and search **"PlantVillage dataset"** (about 54,000 images, 38 classes).
    A free Kaggle account is needed.
 2. Download and unzip it.
-3. Move the class folders into the `PlantVillage/` folder of this project
-   (see `PlantVillage/PUT_DATASET_HERE.txt`).
-   Some versions contain `color`, `grayscale`, `segmented` subfolders. Use the
-   **color** folder's contents.
+3. Move the class folders into the `PlantVillage/` folder of this project.
 
 ## Step 2: Train the model
 
